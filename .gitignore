@@ -1,39 +1,56 @@
-# Built application files
+# ==========================================
+# Build Outputs & Compiled Binaries
+# ==========================================
 *.apk
 *.aar
 *.aab
 *.dex
 *.class
+output-metadata.json
 
-# Gradle & Build directories
+# Build directories & caches
 .gradle/
 build/
 **/build/
 **/tmp/
 
-# Local configuration files (SDK paths, etc)
-local.properties
+# C/C++ Native builds
+.externalNativeBuild/
+.cxx/
 
-# Log Files
-*.log
-
-# Android Studio & IDE files
+# ==========================================
+# IDE & Tooling Files
+# ==========================================
+# Android Studio / IntelliJ IDEA
 *.iml
 .idea/
 .navigation/
 captures/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
-# External native build folders
-.externalNativeBuild/
-.cxx/
+# Profiling & Diagnostics
+*.log
+*.hprof
 
-# Secrets and Signing Key files
-keystore.properties
-release.keystore
+# ==========================================
+# Local Configuration & Environment
+# ==========================================
+local.properties
+
+# ==========================================
+# Secrets, Credentials & Keystores
+# ==========================================
 *.jks
 *.keystore
+release.keystore
+keystore.properties
 *.pepk
+google-services.json
 
-# OS metadata
+# ==========================================
+# OS-Specific Metadata
+# ==========================================
 .DS_Store
 Thumbs.db
