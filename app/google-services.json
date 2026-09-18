@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929943989212",
+    "project_id": "mindscale-4b424",
+    "storage_bucket": "mindscale-4b424.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929943989212:android:e8fd7665b0856c5d4d7d19",
+        "android_client_info": {
+          "package_name": "com.mindscale.games"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgM1bLXieo3s9EuDTlVXZptUkLzDE7fd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

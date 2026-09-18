@@ -1,0 +1,39 @@
+# Built application files
+*.apk
+*.aar
+*.aab
+*.dex
+*.class
+
+# Gradle & Build directories
+.gradle/
+build/
+**/build/
+**/tmp/
+
+# Local configuration files (SDK paths, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio & IDE files
+*.iml
+.idea/
+.navigation/
+captures/
+
+# External native build folders
+.externalNativeBuild/
+.cxx/
+
+# Secrets and Signing Key files
+keystore.properties
+release.keystore
+*.jks
+*.keystore
+*.pepk
+
+# OS metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MindScale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #0D0F17;
+            --surface-card: #161A26;
+            --surface-border: #262C40;
+            --accent-mint: #00F2FE;
+            --accent-purple: #9D4EDD;
+            --text-primary: #F0F4F8;
+            --text-secondary: #94A3B8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: var(--surface-card);
+            border: 1px solid var(--surface-border);
+            border-radius: 24px;
+            padding: 48px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            border-bottom: 1px solid var(--surface-border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .app-badge {
+            display: inline-block;
+            background: rgba(0, 242, 254, 0.1);
+            color: var(--accent-mint);
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 8px;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-mint), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: var(--accent-mint);
+            margin-top: 32px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        p, ul {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-mint);
+            background: rgba(0, 242, 254, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .highlight-box {
+            background: rgba(157, 78, 221, 0.08);
+            border-left: 4px solid var(--accent-purple);
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 24px 0;
+        }
+
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--surface-border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px;
+                border-radius: 16px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-badge">MINDSCALE MATHS</div>
+            <h1>Privacy Policy</h1>
+            <p class="meta">Effective Date: August 31, 2026 | Application ID: <code>com.mindscale.games</code></p>
+        </div>
+
+        <div class="highlight-box">
+            <p style="margin:0; color: var(--text-primary);">
+                <strong>Summary:</strong> MindScale respects your privacy. We collect minimal, anonymized telemetry strictly through Firebase Analytics to improve game performance and user experience. No personal data, location telemetry, or identity tracking is stored or shared.
+            </p>
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>This Privacy Policy outlines how <strong>MindScale</strong> ("we", "our", or "us") handles information when you use our mobile application. MindScale is designed to be a safe, fast-paced mental arithmetic practice application.</p>
+
+        <h2>2. Data Collection & Analytics</h2>
+        <p>To ensure app quality, track stability, and understand gameplay engagement across difficulty tiers, MindScale uses <strong>Firebase Analytics</strong> (provided by Google Inc.).</p>
+        <p>Firebase Analytics collects anonymized, non-personally identifiable events such as:</p>
+        <ul>
+            <li><strong>Screen Navigation:</strong> Aggregated counts of visits to Home, Game, Results, Stats, and Settings screens.</li>
+            <li><strong>Game Performance Metrics:</strong> Mode selections (Classic vs. Arcade), chosen difficulty levels, accuracy ratios, and streak counts.</li>
+            <li><strong>Technical Diagnostics:</strong> App lifecycle events (app launch, crash diagnostics, device model, operating system version).</li>
+        </ul>
+        <p>No Personally Identifiable Information (PII) such as your name, email address, IP location tracking, or device contact details are ever collected.</p>
+
+        <h2>3. Local Storage</h2>
+        <p>All your personal game progress and app preferences are stored exclusively on your device using Android Jetpack DataStore and Room Database:</p>
+        <ul>
+            <li>Sound Effects & Haptic Feedback preferences</li>
+            <li>Personal best score streaks and round accuracy history</li>
+        </ul>
+        <p>This data never leaves your device and can be cleared at any time by wiping the app data from your device settings.</p>
+
+        <h2>4. Children's Privacy</h2>
+        <p>MindScale is suitable for users of all ages, including children. We strictly comply with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policies. We do not collect or request personal data from children under the age of 13.</p>
+
+        <h2>5. Data Security</h2>
+        <p>Because all gameplay history is stored locally on your device and network communication is strictly limited to Google's standard Firebase Analytics SDK over encrypted SSL/TLS channels, your data remains secure.</p>
+
+        <h2>6. Changes to This Policy</h2>
+        <p>We may update our Privacy Policy from time to time to reflect feature updates or legal compliance changes. Any updates will be posted directly within this document.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact our support team at:</p>
+        <p><strong>Email:</strong> support@mindscale.games</p>
+
+        <div class="footer">
+            <p>&copy; 2026 MindScale. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
